@@ -29,3 +29,6 @@ Run the container:
 ```docker run -d -p 5000:5000 corona```
 
 That is it. Go to localhost:5000 in your browser and start coding in app.py, data is in root ./.
+
+<div style="text-align:center"><img src="https://github.com/progamandoconro/corona-COVID19/blob/master/COVID19_Rstudio_Dockerfile.png?raw=true" /></div>
+
