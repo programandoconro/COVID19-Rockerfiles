@@ -1,24 +1,31 @@
-# Visualizations of CoronavirusCoVid19 kaggle.com public API data in the browser, using Python inside a virtual container.
+## COVID19 data in Rstudio and Flask using virtual containers
+Requirements:
+docker or podman * tested with podman 1.8.1.
 
-## Requirements:
+# Rstudio in your browser with just three steps
 
-* ```docker``` or ```podman``` * tested with ```podman 1.8.1```.
+1. Get your Kaggle.com credentials from: https://www.kaggle.com/docs/api#getting-started-installation-&-authentication and >
+2. Build with docker or podman
 
-* Kaggle.com credentials, obtained from: https://www.kaggle.com/docs/api#getting-started-installation-&-authentication.
+```podman build . -t corona/rstudio```
 
-## Steps:
+3. Run the server and go to localhost:8787 in the browser.
 
-1. Clone and cd into this repo: 
-```git clone https://github.com/progamandoconro/coronaCOVID19 && cd coronaCOVID19```
+```podman run -dit --ulimit="nofile=4096" --env PASSWORD=coronavirus -p 8787:8787 corona/rstudio```
 
-2. Add your credentials to ```kaggle.json``` file.
 
-3. Build the container: 
+## Flask App (Python)
+
+Steps:
+Clone and cd into this repo: git clone https://github.com/progamandoconro/coronaCOVID19 && cd coronaCOVID19
+
+Add your credentials to kaggle.json file.
+
+Build the container:
 
 ```docker build . -t corona```
 
-4. Run the container:
-
+Run the container:
 ```docker run -d -p 5000:5000 corona```
 
-That is it. Go to ```localhost:5000``` in your browser and start coding in ```app.py```, data is in root ```./```. 
+That is it. Go to localhost:5000 in your browser and start coding in app.py, data is in root ./.
