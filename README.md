@@ -2,10 +2,14 @@
 Requirements:
 docker or podman * tested with podman 1.8.1.
 
+Get the data from public API. Get your Kaggle.com credentials from: https://www.kaggle.com/docs/api#getting-started-installation-&-authentication and add them to ```kaggle.json``` file.
+
 # Rstudio in your browser with just three steps
 
-1. Get your Kaggle.com credentials from: https://www.kaggle.com/docs/api#getting-started-installation-&-authentication and >
-2. Build with docker or podman
+Steps:
+1. Clone and cd into this repo: git clone https://github.com/progamandoconro/coronaCOVID19 && cd coronaCOVID19/RSTUDIO
+
+2. Add your credentials to ```kaggle.json``` and build with docker or podman
 
 ```podman build . -t corona/rstudio```
 
@@ -17,7 +21,7 @@ docker or podman * tested with podman 1.8.1.
 ## Flask App (Python)
 
 Steps:
-Clone and cd into this repo: git clone https://github.com/progamandoconro/coronaCOVID19 && cd coronaCOVID19
+Clone and cd into this repo: git clone https://github.com/progamandoconro/coronaCOVID19 && cd coronaCOVID19/FLASK
 
 Add your credentials to kaggle.json file.
 
