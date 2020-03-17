@@ -1,11 +1,10 @@
-# Visualizations of CoronavirusCoVid19 kaggle.com public API data in the browser, using Python inside a Podman or Docker virtual container.
+# Visualizations of CoronavirusCoVid19 kaggle.com public API data in the browser, using Python inside a virtual container.
 
 ## Requirements:
 
-1. ```docker``` or ```podman``` *.
-2. Kaggle.com credentials, obtained from: https://www.kaggle.com/docs/api#getting-started-installation-&-authentication.
+* ```docker``` or ```podman``` * tested with ```podman 1.8.1```.
 
-* tested with ```podman 1.8.1```.
+* Kaggle.com credentials, obtained from: https://www.kaggle.com/docs/api#getting-started-installation-&-authentication.
 
 ## Steps:
 
@@ -22,6 +21,4 @@
 
 ```docker run -d -p 5000:5000 corona```
 
-Go to ```localhost:5000``` in your browser
-
-Start coding from ```app.py```, data will be in ```./``` 
+That is it. Go to ```localhost:5000``` in your browser and start coding in ```app.py```, data is in root ```./```. 
