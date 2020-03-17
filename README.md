@@ -1,4 +1,4 @@
-# Download real-time Coronavirus CoVid19 from kaggle.com public API.
+# Coronavirus CoVid19 ```data-analysis-app``` from kaggle.com ```public API``` using ```Python``` inside a ```podman (docker)``` virtual container.
 
 ## Requirements:
 
@@ -9,7 +9,7 @@
 ## Steps:
 
 1. Clone and cd into this repo: ```git clone https://github.com/progamandoconro/coronaCOVID19 && cd coronaCOVID19```
-2. Add your credentials to ```kaggle.json``` (https://www.kaggle.com/docs/api#getting-started-installation-&-authentication). 
+2. Add your credentials to ```kaggle.json``` obtainded from: (https://www.kaggle.com/docs/api#getting-started-installation-&-authentication). 
 3. Build the container: ```docker build . -t corona```.
 4. Run the container: ```docker run -d -p 5000:5000 corona```
 
