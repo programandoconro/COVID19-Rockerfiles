@@ -1,10 +1,10 @@
-## COVID19 data in Rstudio and Flask using virtual containers
+# COVID19 data from kaggle in Rstudio or Python Flask using virtual containers
 Requirements:
 docker or podman * tested with podman 1.8.1.
 
 Get the data from public API. Get your Kaggle.com credentials from: https://www.kaggle.com/docs/api#getting-started-installation-&-authentication and add them to ```kaggle.json``` file.
 
-# Rstudio in your browser with just three steps
+## Rstudio in your browser with just three steps
 
 Steps:
 1. Clone and cd into this repo: git clone https://github.com/progamandoconro/coronaCOVID19 && cd coronaCOVID19/RSTUDIO
@@ -35,4 +35,3 @@ Run the container:
 That is it. Go to localhost:5000 in your browser and start coding in app.py, data is in root ./.
 
 <div style="text-align:center"><img src="https://github.com/progamandoconro/corona-COVID19/blob/master/COVID19_Rstudio_Dockerfile.png?raw=true" /></div>
-
