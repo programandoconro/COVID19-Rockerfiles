@@ -1,4 +1,4 @@
-# Coronavirus CoVid19 ```data-analysis-app``` from kaggle.com ```public API``` using ```Python``` inside a ```podman (docker)``` virtual container.
+# Download Coronavirus CoVid19 real-time data from kaggle.com public API && Build a Flask Python App to deploy it inside a podman or docker virtual container.
 
 ## Requirements:
 
