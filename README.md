@@ -18,6 +18,10 @@ Steps:
 ```podman run -dit --ulimit="nofile=4096" --env PASSWORD=coronavirus -p 8787:8787 corona/rstudio```
 
 
+name: ```rstudio```
+password: ```coronavirus```
+
+
 ## Flask App (Python)
 
 Steps:
