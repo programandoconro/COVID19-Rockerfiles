@@ -7,5 +7,5 @@
 
 3. Run the server and go to localhost:8787 in the browser.
 
-```podman run -dit --ulimit="nofile=4096" --env PASSWORD=coronavirus -p 8787:8787 corona/rstudio```
+```podman run -dit --ulimit="nofile=4096" --env PASSWORD=coronavirus -p 8787:8787 --restart always corona/rstudio```
 
