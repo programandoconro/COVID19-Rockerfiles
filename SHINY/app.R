@@ -21,7 +21,7 @@ server <- function(input, output) {
   
   output$distPlot <- renderPlot({
     
-    plot(df)
+    plot(df_covid)
   })
 }
 
