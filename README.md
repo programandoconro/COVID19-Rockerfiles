@@ -1,4 +1,7 @@
 # COVID19 data from kaggle in Rstudio-server using virtual containers  with just three steps
+
+<div style="text-align:center"><img src="https://github.com/progamandoconro/corona-COVID19/blob/master/COVID19_Rstudio_VC.png?raw=true" /></div>
+
 Requirements:
 docker or podman * tested with podman 1.8.1.
 
@@ -43,5 +46,3 @@ Steps:
 name: ```rstudio```
 password: ```coronavirus```
 
-
-<div style="text-align:center"><img src="https://github.com/progamandoconro/corona-COVID19/blob/master/COVID19_Rstudio_VC.png?raw=true" /></div>
