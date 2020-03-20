@@ -44,4 +44,4 @@ name: ```rstudio```
 password: ```coronavirus```
 
 
-<div style="text-align:center"><img src="https://github.com/progamandoconro/corona-COVID19/blob/master/COVID19_Rstudio_Dockerfile.png?raw=true" /></div>
+<div style="text-align:center"><img src="https://github.com/progamandoconro/corona-COVID19/blob/master/COVID19_Rstudio_VC.png?raw=true" /></div>
