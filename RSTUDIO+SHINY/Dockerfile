@@ -7,4 +7,4 @@ unzip novel-corona-virus-2019-dataset.zip && \
 mv *.csv /home/rstudio/ 
 RUN echo 'install.packages(c("ggplot2","plotly","dplyr","shiny","shinydashboard","reticulate"))' > requirements.R && \ 
 Rscript requirements.R
-COPY app.R .
+COPY app.R /home/rstudio
