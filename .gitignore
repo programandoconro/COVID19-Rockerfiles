@@ -130,3 +130,4 @@ dmypy.json
 
 .RSTUDIO/kaggle.json
 .FLASK/kaggle.json
+.RSTUDIO+SHINY/kaggle.json
