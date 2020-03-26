@@ -47,3 +47,7 @@ Steps: Same as before but inside ```FULL+DATA+SPAIN``` directory.
 ## ```Canarias```: Get data from Canarian islands COVID cases and visualize it in Rstudio-server
 
 Data scraping and mining to obtain time series of COVID cases in Canarian islands.  
+
+Example plot:
+
+<div><img src='https://raw.githubusercontent.com/progamandoconro/COVID19-Rockerfiles/master/corona26_03_2020.png' /></div>
