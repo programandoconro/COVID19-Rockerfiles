@@ -42,3 +42,8 @@ Steps: Same as before but inside ```RSTUDIO+SHINY``` directory.
 With daily pdf reports from https://www.mscbs.gob.es/
 
 Steps: Same as before but inside ```FULL+DATA+SPAIN``` directory.
+
+
+## ```Canarias```: Get data from Canarian islands COVID cases and visualize it in Rstudio-server
+
+Data scraping and mining to obtain time series of COVID cases in Canarian islands.  
