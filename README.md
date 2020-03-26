@@ -1,4 +1,4 @@
-# COVID19 data from kaggle and mscb (Spain) in Rstudio-server using virtual containers, just three steps
+# ```Dockerfiles```: Rstudio in the browser to analyze COVID19 data from different sources. 
 
 <div style="text-align:center"><img src="https://github.com/progamandoconro/corona-COVID19/blob/master/COVID19_Rstudio_VC.png?raw=true" /></div>
 
@@ -18,7 +18,7 @@ Docker: ```docker build . -t corona/rstudio```
 
 Podman: ```podman build . -t corona/rstudio```
 
-3. Run the server and go to localhost:8787 in the browser.
+3. Run the server and go to ```localhost:8787``` in the browser.
 
 Docker: ```docker run -dit --env PASSWORD=coronavirus -p 8787:8787 corona/rstudio```
 
