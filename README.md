@@ -20,7 +20,7 @@ Podman: ```podman build . -t corona/rstudio```
 
 3. Run the server and go to ```localhost:8787``` in the browser.
 
-Docker: ```docker run -dit --env PASSWORD=coronavirus -p 8787:8787 corona/rstudio```
+Docker: ```docker run -dit --env PASSWORD=coronavirus --restart always -p 8787:8787 corona/rstudio```
 
 Podman: ```podman run -dit --ulimit="nofile=4096" --env PASSWORD=coronavirus -p 8787:8787 corona/rstudio```
 
