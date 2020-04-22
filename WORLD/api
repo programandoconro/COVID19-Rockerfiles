@@ -1,0 +1,9 @@
+# world timeline
+https://thevirustracker.com/timeline/map-data.json
+
+# by country (example, US)
+https://thevirustracker.com/free-api?countryTimeline=US
+
+# world stats
+https://thevirustracker.com/free-api?global=stats
+
